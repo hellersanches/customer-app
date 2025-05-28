@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: customer-app
+    env: python
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "gunicorn customer_app.wsgi:application"
+    envVars:
+      - key: MYSQL_DATABASE
+        value: hellersanches
+      - key: MYSQL_USER
+        value: hellersanches
+      - key: MYSQL_PASSWORD
+        value: BabySophia@202
+      - key: MYSQL_HOST
+        value: hellersanches.mysql.dbaas.com.br
+      - key: MYSQL_PORT
+        value: 3306
