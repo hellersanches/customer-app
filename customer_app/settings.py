@@ -51,7 +51,7 @@ WSGI_APPLICATION = 'customer_app.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'customer_db',
+        'NAME': 'hellersanches',
         'USER': 'hellersanches',
         'PASSWORD': 'BabySophia@202',
         'HOST': 'hellersanches.mysql.dbaas.com.br',  # exemplo, substitua se for diferente
