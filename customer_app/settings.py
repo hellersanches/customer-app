@@ -50,12 +50,12 @@ WSGI_APPLICATION = 'customer_app.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'hellersanches',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'customer_2rvo',
         'USER': 'hellersanches',
-        'PASSWORD': 'BabySophia@202',
-        'HOST': 'hellersanches.mysql.dbaas.com.br',  # exemplo, substitua se for diferente
-        'PORT': '3306',
+        'PASSWORD': '4O6F2oWqhlcbouMYhO3pJwkr84sE6eg4',
+        'HOST': 'dpg-d0rr0ns9c44c73cgf6r0-a',  # exemplo, substitua se for diferente
+        'PORT': '5432',
     }
 }
 
